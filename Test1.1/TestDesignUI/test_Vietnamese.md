@@ -24,6 +24,8 @@ Update như sau:
 
 - Phần content sẽ mở rộng chiếm hết chiều ngang của màn hình và bên dưới cái component nói trên. Các component con sẽ được set vị trí từ trên xuống dưới và chiếm hết chiều ngang của component cha
 
+![Mobile](https://github.com/hung73cs/Test/assets/46376034/24d9b0aa-8994-46b6-805f-fea45859c6c0)
+
  3. Tablet: Tuỳ vào kích thước và tỉ lệ. Nếu có kích thước to thì sẽ cho hiển thị giống với desktop còn nhỏ thì giống mobile
 
 Phần thiết kế DOM structure:
