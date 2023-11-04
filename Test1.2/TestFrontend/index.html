@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary API Data</title>
+</head>
+<body>
+    <header>
+        <h1>Dictionary API Data</h1>
+    </header>
+    <main>
+        <section id="dictionaryData">
+        </section>
+        <div>
+            <label for="wordInput">Enter a word:</label>
+            <input type="text" id="wordInput" placeholder="e.g., hello">
+            <button id="fetchDataButton">Fetch Data</button>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="const.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#fetchDataButton").click(function () {
+                var word = $("#wordInput").val();
+                
+                var apiUrl = `${BACKEND_URL}=${word}`;
+
+                $.ajax({
+                    url: apiUrl,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        var dictionaryData = $("#dictionaryData");
+                        dictionaryData.html(JSON.stringify(data, null, 4));
+                    },
+                    error: function (error) {
+                        console.error("Failed to fetch data:", error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
