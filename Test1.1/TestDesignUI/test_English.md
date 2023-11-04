@@ -48,8 +48,6 @@ III. Coding
 - Use media queries to apply different styles for screens of various sizes, for example:
 Adjust the CSS styles and layout as needed to ensure your website is responsive and looks great on different devices and screen sizes.
 
-``
-
     // Styles for mobile screens
     @media (max-width: 768px) {
         // Mobile styles
@@ -64,5 +62,3 @@ Adjust the CSS styles and layout as needed to ensure your website is responsive 
     @media (min-width: 1025px) {
         // Desktop styles
     }
-    
-``
