@@ -22,7 +22,7 @@ Update as follows:
 - The left menu bar will be combined into a menu option button and placed on the left side of the screen (within the mobile navigation bar). Clicking on it will display the menu options.
 - The content section will expand to occupy the entire width of the screen and appear below the components mentioned above. Child components will be positioned from top to bottom and take up the entire width of the parent component
 
-![Mobile](https://github.com/hung73cs/Test/assets/46376034/48604c9e-0ef4-4168-93c3-ec7c5261e1de)
+![Mobile](https://github.com/hung73cs/Test/assets/46376034/1b4ced92-050a-46ff-91b8-db6805b34523)
 
 3. Tablet: Depends on size and ratio. If the size is large, it will display like a desktop, if it is small, it will look like a mobile
 
