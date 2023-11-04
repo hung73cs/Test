@@ -1,4 +1,4 @@
-![Highlight](https://github.com/hung73cs/Test/assets/46376034/6450c87a-0806-4dc3-af39-6c00e6f5096e)
+![Highlight](https://github.com/hung73cs/Test/assets/46376034/c23fcbad-4a8a-431d-95ed-b50f3fb4e6dc)
 
 1. Printer Area
    - The component should expand to fill the right-side space (width 100%).
