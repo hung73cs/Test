@@ -49,6 +49,7 @@ III. Coding
 Adjust the CSS styles and layout as needed to ensure your website is responsive and looks great on different devices and screen sizes.
 
 ``
+
     // Styles for mobile screens
     @media (max-width: 768px) {
         // Mobile styles
@@ -63,4 +64,5 @@ Adjust the CSS styles and layout as needed to ensure your website is responsive 
     @media (min-width: 1025px) {
         // Desktop styles
     }
+    
 ``
