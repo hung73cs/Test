@@ -22,6 +22,8 @@ Update as follows:
 - The left menu bar will be combined into a menu option button and placed on the left side of the screen (within the mobile navigation bar). Clicking on it will display the menu options.
 - The content section will expand to occupy the entire width of the screen and appear below the components mentioned above. Child components will be positioned from top to bottom and take up the entire width of the parent component
 
+![Mobile](https://github.com/hung73cs/Test/assets/46376034/48604c9e-0ef4-4168-93c3-ec7c5261e1de)
+
 3. Tablet: Depends on size and ratio. If the size is large, it will display like a desktop, if it is small, it will look like a mobile
 
 III. Coding
@@ -32,7 +34,7 @@ III. Coding
         <div class="setting-menu-bar"></div>
         <div class="left-menu-bar"></div>
         <div class="content">
-            <div class="main-text"></div>
+     <div class="main-text"></div>
             <div class="content-option"></div>
             <div class="comments"></div>
         </div>
@@ -40,7 +42,7 @@ III. Coding
 </html>
 
 2. CSS design:
-- Preferably use flexbox for optimizing responsiveness.
+- Preferably use `flexbox` for optimizing responsiveness.
 - Set the navigation bar to stick to the top of the screen.
 - Set the setting menu bar to stick to the top of the screen below the navigation bar (position will depend on the height of the navigation bar).
 - The left menu bar will stick to the left side of the screen below the navigation bar.
@@ -48,17 +50,10 @@ III. Coding
 - Use media queries to apply different styles for screens of various sizes, for example:
 Adjust the CSS styles and layout as needed to ensure your website is responsive and looks great on different devices and screen sizes.
 
-    // Styles for mobile screens
-    @media (max-width: 768px) {
-        // Mobile styles
-    }
-
-    // Styles for tablet screens
-    @media (min-width: 769px) and (max-width: 1024px) {
-        // Tablet styles
-    }
-
-    // Styles for common desktop screens
-    @media (min-width: 1025px) {
-        // Desktop styles
-    }
+        Ex: 
+        // Styles for mobile screen
+            @media (max-width: 768px) // Styles for mobile screen
+        // Styles for table screen
+            @media (min-width: 769px) and (max-width: 1024px)
+        // Styles for common desktop
+            @media (min-width: 1025px)
